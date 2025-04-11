@@ -51,10 +51,17 @@
 }
 
 /* EndTop Header */
-.container .header {
+.header-container {
+    height: 118px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+}
+
+.header {
     display: flex;
     align-items: center;
     background-color: red;
+    margin-top: 17px;
 }
 
 .header .logo {
@@ -152,6 +159,7 @@
     justify-content: start;
     width: 100%;
     background-color: blue;
+    margin: 23px 0 18px 0; 
 }
 
 .menu-hamburger {
