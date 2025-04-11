@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*container do projecto*/
+.container {
+    max-width: 1261px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+/*Top Header */
+.top-header {
+    width: 100%;
+    height: 30px;
+    background-color: #005CFF;
+}
+
+.top-header p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 4px;
+}
+
+.top-header .discount-amount {
+    width: 63px;
+    height: 16px;
+    background-color: #6220C1;
+    border-radius: 4px;
+    padding: 2px 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+.top-header .coupon-code {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+/* EndTop Header */
+.container .header {
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
+
+.header .logo {
+    width: 152px;
+    height: 28px;
+    margin-right: 65px;
+}
+
+.header .search-and-cart {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header .search-and-cart .search-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-grow: 1;
+    margin-right: 275px;
+    width: 594px;
+}
+
+.header .search-and-cart .search-input {
+    flex-grow: 1;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #DDDDDD;
+    padding: 10px 0px 10px 24px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    transition: border-color 300ms ease-in;
+}
+
+.header .search-and-cart .search-input:hover {
+    border-color: #005CFF;
+}
+
+.header .search-and-cart .search-icon {
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    right: 20px;
+    color: #000000;
+}
+
+.header .search-and-cart .fa-user {
+    width: 21px;
+    height: 24px;
+    font-size: 24px;
+    margin-right: 8px;
+    color: #005CFF;
+}
+
+.header .search-and-cart .text-info-header {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0%;
+    margin-right: 24px;
+}
+
+.header .search-and-cart .shopping-cart {
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+}
+
+.header .search-and-cart .cart-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #005CFF;
+    color: white;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0%;
+}
+
+/*NavbarLinks Menus*/
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    background-color: blue;
+}
+
+.menu-hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 45px;
+    position: relative;
+}
+
+.menu-hamburger i {
+    margin-right: 8px;
+}
+
+.menu-hamburger a {
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Dropdown Menu*/
+.menu-hamburger .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.container-sidebar {
+    display: flex;
+    max-width: 1290px;
+    height: 329px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 8px -1px #0000001A;
+    margin-top: 13px;
+}
+
+.container-sidebar .sidebar {
+    width: 234px;
+    height: 329px;
+    background-color: #f2f2f2;
+    padding: 20px 27px 11px 16px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.departments-side {
+    list-style: none;
+    width: 190px;
+    height: 298px;
+}
+
+.departments-side li {
+    margin-bottom: 12px;
+}
+
+.departments-side a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #303030;
+}
+
+.departments-side a:hover {
+    color: #005CFF;
+}
+
+.departments-side span {
+    margin-left: 60px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.departments {
+    display: flex;
+    align-items: center;
+}
+
+.content-dropdown-wrapper {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 8px -1px #0000001A;
+}
+
+.departments a {
+    margin-right: 45px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0;
+}
+
+.departments a:last-child {
+    margin-right: 19px;
+}
+
+/* Main dropdown */
+.content-dropdown {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 24px 11px 0;
+
+}
+
+.Liste {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 63px;
+    text-align: center;
+}
+
+.Liste li {
+    margin-bottom: 12px;
+}
+
+.Liste a {
+    text-decoration: none;
+    color: #303030;
+    font-size: 14px;
+}
+
+.Liste a:hover {
+    color: #005CFF;
+    transition: color 0.3s ease;
+}
+
+.Liste-1 {
+    margin-left: 34px;
+    margin-right: 127px;
+}
+
+.Liste-2 {
+    margin-right: 127px;
+}
+
+.Liste-3 {
+    margin-right: 298px;
+}
+
+.imagem-container-dropdown {
+    width: 236px;
+    height: 298px;
+    border-radius: 10px;
+    background-image: url('/images/several/news.png');
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.imagem-container-dropdown .titulo {
+    position: absolute;
+    top: 43px;
+    left: 28px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -0.5%;
+}
+
+.imagem-container-dropdown .destaque {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 0%;
+}
+
+.imagem-container-dropdown::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    border-radius: 10px;
+    transform: rotate(-180deg);
+    background: linear-gradient(90deg,
+            rgba(0, 0, 0, 0.74902) -20.45%,
+            rgba(0, 0, 0, 0) 138.31%);
+}
+
+
+.button_btn {
+    position: absolute;
+    width: 116px;
+    height: 38px;
+    top: 213px;
+    left: 27px;
+    border-width: 1px;
+    background: transparent;
+    border-radius: 10px;
+    font-family: "Heebo", sans-serif;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.button_btn:hover {
+    background-color: transparent;
+    opacity: 70%;
+    transition: color 0.3s ease;
+}
+
+.content-dropdown-wrapper.ativo-dropdown .Liste-1 {
+    margin-left: 18px;
+}
+
+.content-dropdown-wrapper.ativo-dropdown .Liste-3 {
+    margin-right: 544px;
+}
+
+.content-dropdown-wrapper.ativo-dropdown {
+    display: flex;
+}
+
+.menu-hamburger a#allCategoriesLink:hover,
+.menu-hamburger:hover i,
+.departments.navbar-links a:hover {
+    color: #005CFF;
+    transition: color 0.3s ease;
+}
+
+.departments.navbar-links a {
+    color: #303030;
+}
+
+
+/* Banner Hero */
+.banner-container {
+    width: 100%;
+    height: 510px;
+    background-image: url('/images/several/banner_hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .banner {
+    margin: 143px 399px 142px 944px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .promo-text {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 12px;
+    display: flex;
+  }
+  
+  .sale-text {
+    font-weight: 300;
+  }
+  
+  .sub-text {
+    font-size: 25px;
+    color: #005CFF;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 28%;
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  
+  .discount {
+    font-size: 60px;
+    font-weight: 700;
+    color: #005CFF;
+    line-height: 100%;
+  }
+  
+
+
+
+
+
+
