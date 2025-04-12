@@ -796,58 +796,59 @@
         padding: 0 16px;
         margin-top: 56px;
     }
-    
+
     .lancamentos a {
         font-size: 16px;
     }
-    
+
     .ver-mais a {
         font-size: 14px;
     }
-    
+
     .slide-container {
         margin: 0 17px;
         position: relative;
         gap: 10px;
     }
-    
+
     .card {
         margin-top: 16px;
-        height: 410px;  /* representa o botão por baixo */
+        height: 410px;
+        /* representa o botão por baixo */
     }
-    
+
     .card .image-box {
         width: 174px;
         height: auto;
         border-radius: 10px;
         padding: 12px 8px;
     }
-    
+
     .card .image-box img {
         max-width: 158px;
         width: 100%;
         height: 158px;
     }
-    
+
     .produt-details .name {
         top: 12px;
         left: 8px;
     }
-    
+
     .produt-details .description {
         margin-top: 8px;
         margin-bottom: 12px;
     }
-    
+
     .produt-details .price-discount {
         margin-bottom: 10px;
     }
-    
+
     .produt-details .discount-percentage {
         top: 220px;
         left: 86px;
     }
-    
+
     .buy-button {
         width: 158px;
         height: 40px;
@@ -902,25 +903,119 @@
         width: 100%;
         margin: 38px auto 56px auto;
     }
-    
+
     .lorem img {
         width: 100%;
         height: auto;
     }
-    
+
     .text-section {
         padding: 38px 24px 48px 24px;
     }
-    
+
     .text-section .title {
         font-size: 24px;
     }
-    
+
     .text-section p {
         font-size: 14px;
         margin-top: 18px;
     }
 
-
 }
 
+/*Begin Location */
+.location {
+    background-color: #DEDEDE;
+    height: 819px;
+}
+
+.container-location {
+    display: flex;
+    width: 1177px;
+    height: 728px;
+    margin: 0 auto;
+    padding-top: 41px;
+}
+
+.location-text h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: 4%;
+    text-transform: uppercase;
+    margin-top: 121px;
+    text-align: center;
+}
+
+.description-location {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.description-location img {
+    width: 90px;
+    height: 90px;
+    margin-right: 20px;
+}
+
+.text-location-location {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 5%;
+    color: #4F4F4F;
+    margin-right: 52px;
+    text-align: justify;
+}
+
+.cup {
+    width: 652px;
+    height: 728px;
+}
+
+@media (max-width: 768px) {
+
+    .location {
+        height: 717px;
+    }
+    
+    .container-location {
+        flex-direction: column;
+        width: 100%;
+        height: 717px;
+        margin: 0;
+        padding-top: 41px;
+    }
+    
+    .location-text h1 {
+        font-size: 20px;
+        margin-top: 21px;
+    }
+    
+    .description-location {
+        display: flex;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .description-location img {
+        width: 60px;
+        height: 60px;
+        margin-right: 14px;
+    }
+    
+    .text-location-location {
+        font-size: 12px;
+        margin-right: 52px;
+        text-align: justify;
+    }
+    
+    .cup {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+}
