@@ -61,9 +61,10 @@
 .header {
     display: flex;
     align-items: center;
-    background-color: red; 
+    background-color: red;
     margin-top: 17px;
 }
+
 .container .header {
     display: flex;
     align-items: center;
@@ -168,7 +169,7 @@
     justify-content: start;
     width: 100%;
     background-color: blue;
-    margin: 23px 0 18px 0; 
+    margin: 23px 0 18px 0;
 }
 
 .menu-hamburger {
@@ -498,9 +499,9 @@
     justify-content: center;
     position: relative;
     z-index: 1;
-  }
-  
-  .banner {
+}
+
+.banner {
     margin: 143px 399px 142px 944px;
     height: 225px;
     display: flex;
@@ -508,45 +509,43 @@
     align-items: center;
     justify-content: center;
     background-color: #6220C1;
-  }
-  
-  .banner-text {
+}
+
+.banner-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-  }
-  
-  .promo-text {
+}
+
+.promo-text {
     font-size: 100px;
     font-weight: 700;
     line-height: 100%;
     margin-bottom: 12px;
     display: flex;
-  }
-  
-  .sale-text {
+}
+
+.sale-text {
     font-weight: 300;
-  }
-  
-  .sub-text {
+}
+
+.sub-text {
     font-size: 25px;
     color: #005CFF;
     font-weight: 700;
     letter-spacing: 29%;
     width: 100%;
     margin-bottom: 12px;
-  }
-  
-  .discount {
+}
+
+.discount {
     font-size: 60px;
     font-weight: 700;
     color: #005CFF;
-    line-height: 1
-    00%;
-  }
-  
-/* Resposivo Mobile */
+    line-height: 1 00%;
+}
+
 
 
 /* Resposivo Mobile */
@@ -555,38 +554,36 @@
     .banner-container {
         width: 100%;
         height: 306px;
-      }
-      
-      .banner {
+    }
+
+    .banner {
         margin: 71px 38px 71px 213px;
         height: 225px;
         display: flex;
         flex-direction: column;
         align-items: center;
-      }
-      
-      .promo-text {
+    }
+
+    .promo-text {
         display: block;
         font-size: 40px;
-      }
-      
-      .sale-text {
-        font-size: 40px;
-      }
-      
-      .sub-text {
-        font-size: 12px;
-      }
-      
-      .discount {
-        font-size: 32px;
-      }
+    }
 
+    .sale-text {
+        font-size: 40px;
+    }
+
+    .sub-text {
+        font-size: 12px;
+    }
+
+    .discount {
+        font-size: 32px;
+    }
 }
 
 
 /* Card Caroussel */
-
 .lancamentos-swiper {
     position: relative;
 }
@@ -616,6 +613,7 @@
     text-align: center;
     color: #303030;
     text-decoration: none;
+    text-decoration: underline;
 }
 
 .slide-container {
@@ -625,7 +623,7 @@
 
 .card {
     margin-top: 19px;
-    height: 478px;
+    height: 460px;
 }
 
 .card .image-box {
@@ -759,9 +757,9 @@
     color: #000;
     height: 40px;
     width: 40px;
-    background-color: #fff;
+    background-color: #005CFF;
     border-radius: 50%;
-    color: #005CFF;
+    color: white;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -770,11 +768,11 @@
 }
 
 .swiper-button-prev {
-    left: -23px;
+    left: 20px;
 }
 
 .swiper-button-next {
-    right: -23px;
+    right: 20px;
 }
 
 .swiper-navBtn::before,
@@ -787,7 +785,99 @@
 }
 
 
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    .swiper-navBtn {
+        display: none;
+    }
 
+    .options-slide ul {
+        padding: 0 16px;
+        margin-top: 56px;
+    }
+    
+    .lancamentos a {
+        font-size: 16px;
+    }
+    
+    .ver-mais a {
+        font-size: 14px;
+    }
+    
+    .slide-container {
+        margin: 0 135px;
+        position: relative;
+    }
+    
+    .card {
+        margin-top: 16px;
+        height: 410px;
+    }
+    
+    .card .image-box {
+        width: 174px;
+        height: 365px;
+        border-radius: 10px;
+        padding: 12px 8px;
 
+    }
+    
+    .card .image-box img {
+        max-width: 158px;
+        width: 100%;
+        height: 158px;
+    }
+    
+    
+    .produt-details .name {
+        position: absolute;
+        width: 41;
+        height: 23;
+        top: 7px;
+        left: 8px;
+    }
+    
+    .produt-details .description {
+        margin-top: 8px;
+        margin-bottom: 12px;
+    }
+    
+    .produt-details .price-original {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-transform: capitalize;
+        text-decoration: line-through;
+        color: #303030;
+        margin-bottom: 4px;
+    }
+    
+    .produt-details .price-discount {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-transform: capitalize;
+        color: #000000;
+        margin-bottom: 10px;
+    }
+    
+    .produt-details .discount-percentage {
+        position: absolute;
+        width: 64px;
+        height: 20px;
+        top: 280px;
+        left: 80px;
+    }
+    
+    .buy-button {
+        width: 158px;
+        height: 40px;
+        padding-top: 10px;
+        padding: 10px 50px;
+        margin-bottom: 8px;
+    }
 
-
+    
+}
