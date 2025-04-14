@@ -11,6 +11,7 @@
     width: 100%;
     box-sizing: border-box;
     margin: 0 auto;
+    position: relative;
 }
 
 /*Top Header */
@@ -62,14 +63,15 @@
     display: flex;
     align-items: center;
     background-color: red;
-    margin-top: 17px;
+    margin-top: 10px;
+   
 }
 
 .container .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 22px;
+    /*margin-top: 10px;*/
 }
 
 .header .logo {
@@ -364,7 +366,6 @@
             rgba(0, 0, 0, 0) 138.31%);
 }
 
-
 .button_btn {
     position: absolute;
     width: 116px;
@@ -459,7 +460,7 @@
 
     .search-and-cart .shopping-cart {
         position: absolute;
-        top: -54px;
+        top: -58px;
         right: 15px;
     }
 
@@ -484,7 +485,6 @@
         display: none !important;
     }
 }
-
 
 /* Banner Hero */
 .banner-container {
@@ -547,7 +547,6 @@
 }
 
 
-
 /* Resposivo Mobile */
 @media (max-width: 768px) {
 
@@ -582,10 +581,9 @@
     }
 }
 
-
 /* Card Caroussel */
 .lancamentos-swiper {
-    position: relative;
+    margin-top: 96px;
 }
 
 .options-slide ul {
@@ -755,17 +753,26 @@
 }
 
 .swiper-navBtn {
-    color: #000;
     height: 40px;
     width: 40px;
-    background-color: #005CFF;
+    background-color: white;
+    border: 1px solid #005CFF; 
     border-radius: 50%;
-    color: white;
+    color: #005CFF;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    margin-right: -40px;
+    margin-left: -40px;
     z-index: 10;
     cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.swiper-navBtn:hover {
+    background-color: #005CFF; 
+    color: white;
 }
 
 .swiper-button-prev {
@@ -1381,4 +1388,5 @@ footer .links-pay img {
 .copyrighttext .logo-group.right {
     margin-left: 24px;
 }
+
 
