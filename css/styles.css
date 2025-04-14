@@ -64,7 +64,7 @@
     align-items: center;
     background-color: red;
     margin-top: 10px;
-   
+
 }
 
 .container .header {
@@ -756,7 +756,7 @@
     height: 40px;
     width: 40px;
     background-color: white;
-    border: 1px solid #005CFF; 
+    border: 1px solid #005CFF;
     border-radius: 50%;
     color: #005CFF;
     position: absolute;
@@ -766,12 +766,12 @@
     margin-left: -40px;
     z-index: 10;
     cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .swiper-navBtn:hover {
-    background-color: #005CFF; 
+    background-color: #005CFF;
     color: white;
 }
 
@@ -805,7 +805,7 @@
 
     .options-slide ul {
         padding: 0 16px;
-        
+
     }
 
     .lancamentos a {
@@ -1253,7 +1253,7 @@ footer .container-footer {
     justify-content: space-between;
     max-width: 1160px;
     margin: 0 auto;
- 
+
     background-color: red;
 }
 
@@ -1357,11 +1357,11 @@ footer .links-pay img {
 }
 
 .copyrighttext p {
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 20px;
-        letter-spacing: 0%;
-        text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 
 .copyrighttext .footer-logos {
@@ -1392,3 +1392,71 @@ footer .links-pay img {
 }
 
 
+@media (max-width: 768px) {
+    footer {
+        background-color: #005CFF;
+    }
+
+    footer .container-footer {
+        flex-direction: column;
+        max-width: 100%;
+        background-color: red;
+    }
+
+    footer .logo-social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 48px;
+    }
+
+    footer .logo-social .logo_header {
+        width: auto;
+    }
+
+    footer .redes-sociais {
+        display: flex;
+        gap: 40px;
+        margin: 0 auto;
+    }
+
+    footer .redes-sociais img {
+        width: auto;
+        height: auto;
+    }
+
+    footer .footer-section h3 {
+        font-size: 16px;
+    }
+
+    footer .footer-section li {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        cursor: pointer;
+    }
+
+    footer .links-pay {
+        gap: 34px;
+        padding: 40px;
+    }
+
+    .copyrighttext {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 58px;
+        padding: 0 16px;
+    }
+
+    .copyrighttext p {
+        align-items: center;
+        text-align: center;
+    }
+
+    .copyrighttext .footer-logos {
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+
+}
