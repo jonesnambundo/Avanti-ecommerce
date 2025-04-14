@@ -425,10 +425,10 @@
     }
 
     .header-container {
-        height: 132px;
-        /* background-color: #6220C1*/
         position: relative;
+        margin-top: 23px;
     }
+
 
     .header {
         flex-direction: column;
@@ -437,7 +437,7 @@
     }
 
     .header>a:first-child {
-        margin-bottom: 27px;
+        margin-bottom: 28px;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -799,9 +799,13 @@
         display: none;
     }
 
+    .lancamentos-swiper {
+        margin-top: 56px;
+    }
+
     .options-slide ul {
         padding: 0 16px;
-        margin-top: 56px;
+        
     }
 
     .lancamentos a {
@@ -833,7 +837,7 @@
 
     .card .image-box img {
         max-width: 158px;
-        width: 100%;
+        width: 158px;
         height: 158px;
     }
 
@@ -908,8 +912,7 @@
     .container-section {
         flex-direction: column;
         width: 100%;
-        margin: 38px auto;
-        margin-bottom: 56px;
+        margin: 96px auto 56px auto;
         height: auto;
     }
 
@@ -919,7 +922,7 @@
     }
 
     .text-section {
-        padding: 38px 24px 48px 24px;
+        padding: 38px 24px 0 24px;
     }
 
     .text-section .title {
@@ -1237,7 +1240,6 @@
         /* Ensure padding doesn't affect width */
     }
 }
-
 
 /* Begin Footer */
 footer {
