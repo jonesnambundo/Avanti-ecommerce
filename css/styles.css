@@ -55,23 +55,20 @@
 .header-container {
     height: 118px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.16);
-    background-color: #6220C1;
+    background-color: #FFFFFF;
     position: relative;
 }
 
 .header {
     display: flex;
     align-items: center;
-    background-color: red;
     margin-top: 10px;
-
 }
 
 .container .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /*margin-top: 10px;*/
 }
 
 .header .logo {
@@ -170,7 +167,6 @@
     align-items: center;
     justify-content: start;
     width: 100%;
-    background-color: blue;
     margin: 23px 0 18px 0;
 }
 
@@ -508,7 +504,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #6220C1;
 }
 
 .banner-text {
@@ -1241,10 +1236,11 @@
     }
 }
 
+
 /* Begin Footer */
 footer {
-    padding-top: 64px;
-    background-color: #005CFF;
+    padding: 64px 0 0 0;
+    background-color: #F5F5F5;
 }
 
 footer .container-footer {
@@ -1253,8 +1249,6 @@ footer .container-footer {
     justify-content: space-between;
     max-width: 1160px;
     margin: 0 auto;
-
-    background-color: red;
 }
 
 /* Logo e redes sociais */
@@ -1347,13 +1341,14 @@ footer .links-pay img {
 /* Texto legal e logos finais */
 .copyrighttext {
     color: #303030;
-    background-color: #6220C1;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     width: 1160px;
     margin: 0 auto;
+    margin-top: 40px;
 }
 
 .copyrighttext p {
@@ -1391,56 +1386,131 @@ footer .links-pay img {
     margin-left: 24px;
 }
 
-
+/* MOBILE STYLE */
 @media (max-width: 768px) {
     footer {
-        background-color: #005CFF;
+        background-color: #F9F9F9;
+        padding-top: 40px;
     }
 
     footer .container-footer {
-        flex-direction: column;
-        max-width: 100%;
-        background-color: red;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 0 16px;
+        display: block;
+        /* Alterado para display: block para empilhar os elementos */
     }
 
+    /* Logo e redes sociais */
     footer .logo-social {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-bottom: 48px;
+        gap: 24px;
     }
 
     footer .logo-social .logo_header {
         width: auto;
+        max-width: 180px;
+        margin: 0 auto;
     }
 
     footer .redes-sociais {
         display: flex;
-        gap: 40px;
+        justify-content: center;
+        gap: 24px;
         margin: 0 auto;
     }
 
     footer .redes-sociais img {
         width: auto;
         height: auto;
+        transition: transform 0.3s;
     }
 
-    footer .footer-section h3 {
+    footer .redes-sociais img:hover {
+        transform: scale(1.1);
+    }
+
+    /* Seções do FAQ */
+    footer .footer-section {
+        width: 100%;
+        margin-bottom: 54px;
+    }
+
+    footer .footer-section:first-of-type {
+        margin-top: 0;
+    }
+
+    footer .footer-section h3.link-header {
         font-size: 16px;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #DDDDDD;
+        padding: 16px;
+        margin: 0;
+        cursor: pointer;
+        text-align: left;
+    }
+
+    .arrow {
+        flex-shrink: 0;
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 6px solid #303030;
+        transition: transform 0.3s ease;
+        margin-left: 8px;
+    }
+
+    .arrow.open {
+        transform: rotate(180deg);
+    }
+
+    footer .footer-section ul.content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease, padding 0.4s ease;
+        padding: 0 16px;
+    }
+
+    footer .footer-section ul.content.show {
+        max-height: 300px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     footer .footer-section li {
-        font-weight: 400;
         font-size: 14px;
         line-height: 28px;
         cursor: pointer;
+        text-align: left;
     }
 
+    footer .footer-section a {
+        color: #303030;
+        text-decoration: none;
+    }
+
+    footer .footer-section a:hover {
+        text-decoration: underline;
+    }
+
+    footer .footer-section span {
+        font-weight: 700;
+        color: #000;
+    }
+
+    /* Imagens de pagamento */
     footer .links-pay {
-        gap: 34px;
-        padding: 40px;
+        border-top: 1px solid #DDDDDD;
     }
-
+    
     .copyrighttext {
         flex-direction: column;
         align-items: center;
