@@ -2,6 +2,8 @@
 
 Projeto de uma interface web responsiva para uma loja virtual fictícia chamada **Avanti**. A proposta é replicar um layout profissional seguindo o design fornecido no Figma, aplicando técnicas modernas de front-end com foco em usabilidade, responsividade e interatividade.
 
+🔗 **[Visualizar Projeto Online](https://avanti-ecommerce-liart.vercel.app/#)**
+
 ---
 
 ## ✅ Funcionalidades
