@@ -1,17 +1,1 @@
-foooter 
 
-document.addEventListener('DOMContentLoaded', function() {
-    const linkLists = document.querySelectorAll('.link-list h4');
-
-    linkLists.forEach(function(header) {
-        header.addEventListener('click', function() {
-            const parentLi = this.parentNode;
-            const content = parentLi.querySelector('.content');
-            const arrow = this.querySelector('.arrow');
-
-            if (content) {
-                content.style.display = content.style.display === 'block' ? 'none' : 'block';
-                arrow.classList.toggle('open');
-            }
-        });
-    });
