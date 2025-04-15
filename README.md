@@ -83,11 +83,14 @@ No mobile:
 
 ### 💻 Desktop
 
-![Preview Desktop](./images/responsivoweb.PNG)
+
 
 ### 📱 Mobile
 
-![Preview Mobile](./images/resposivo.png)
+![Image](https://github.com/user-attachments/assets/2042e921-8fe9-4daa-b8d3-a4ef0874513a)
+
+
+
 
 ---
 
