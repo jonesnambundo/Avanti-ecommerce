@@ -80,7 +80,7 @@ No mobile:
 ---
 
 ## 🖼️ Preview do Projeto
- ### 📱 Mobile  ### 💻 Desktop 
+ ### 📱 Mobile And 💻 Desktop 
 
 ![Image](https://github.com/user-attachments/assets/24826998-f032-441e-bc07-234257c840db)
 
