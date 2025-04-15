@@ -820,7 +820,6 @@
     .card {
         margin-top: 16px;
         height: 410px;
-        /* representa o botão por baixo */
     }
 
     .card .image-box {
@@ -1024,8 +1023,8 @@
         text-align: center;
         order: -1;
     }
-
 }
+
 
 /*Section About Us Again */
 .container-section-next {
@@ -1042,8 +1041,8 @@
         width: 100%;
         margin-bottom: 56px;
     }
-
 }
+
 
 /*Banner Pub*/
 .banner-container-pub {
@@ -1230,9 +1229,7 @@
         font-size: 16px;
         border-radius: 8px;
         width: 100%;
-        /* Make button full width */
         box-sizing: border-box;
-        /* Ensure padding doesn't affect width */
     }
 }
 
@@ -1399,10 +1396,8 @@ footer .links-pay img {
         width: 100%;
         padding: 0 16px;
         display: block;
-        /* Alterado para display: block para empilhar os elementos */
     }
 
-    /* Logo e redes sociais */
     footer .logo-social {
         display: flex;
         flex-direction: column;
@@ -1506,7 +1501,6 @@ footer .links-pay img {
         color: #000;
     }
 
-    /* Imagens de pagamento */
     footer .links-pay {
         border-top: 1px solid #DDDDDD;
     }
