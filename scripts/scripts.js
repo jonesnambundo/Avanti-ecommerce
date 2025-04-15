@@ -70,3 +70,31 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
+/*Funcionalidade de Busca */
+document.addEventListener("DOMContentLoaded", function () {
+    const searchIcon = document.querySelector('.search-icon');
+    const searchInput = document.querySelector('.search-input');
+    const modal = document.getElementById('modalBusca');
+    const resultadoBusca = document.getElementById('resultadoBusca');
+    const closeBtn = document.querySelector('.close');
+
+    searchIcon.addEventListener('click', function () {
+        const valorBusca = searchInput.value.trim();
+        if (valorBusca !== '') {
+            resultadoBusca.textContent = `Você buscou por: '${valorBusca}'`;
+            modal.style.display = "block";
+        }
+    });
+
+    closeBtn.addEventListener('click', function () {
+        modal.style.display = "none";
+    });
+
+    window.addEventListener('click', function (e) {
+        if (e.target === modal) {
+            modal.style.display = "none";
+        }
+    });
+});
+
+
