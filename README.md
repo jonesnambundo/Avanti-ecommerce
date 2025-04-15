@@ -80,17 +80,9 @@ No mobile:
 ---
 
 ## 🖼️ Preview do Projeto
+ ### 📱 Mobile  ### 💻 Desktop 
 
-### 💻 Desktop
-
-
-
-### 📱 Mobile
-
-![Image](https://github.com/user-attachments/assets/2042e921-8fe9-4daa-b8d3-a4ef0874513a)
-
-
-
+![Image](https://github.com/user-attachments/assets/24826998-f032-441e-bc07-234257c840db)
 
 ---
 
