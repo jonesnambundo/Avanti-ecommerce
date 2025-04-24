@@ -84,8 +84,11 @@ No mobile:
 ## 🖼️ Preview do Projeto
  ### 📱 Mobile And 💻 Desktop 
 
-![Image](https://github.com/user-attachments/assets/24826998-f032-441e-bc07-234257c840db)
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/24826998-f032-441e-bc07-234257c840db" alt="Preview Mobile" />
+  <br/><br/>
+  <img src="https://github.com/user-attachments/assets/4b66397b-b002-4b0a-907b-7f1aeb4f3bb8" alt="Preview Web" />
+</div>
 ---
 
 ## 🚀 Como Executar Localmente
