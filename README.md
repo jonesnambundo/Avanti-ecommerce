@@ -22,7 +22,7 @@ Projeto de uma interface web responsiva para uma loja virtual fictícia chamada 
 
 - **HTML5**
 - **CSS3** (sem frameworks, customizado)
-- **JavaScript Vanilla**
+- **JavaScript**
 - [**Swiper.js**](https://swiperjs.com/) - para o carrossel de produtos
 - **Font Awesome** - ícones
 - **Google Fonts** (Heebo, Nunito, Poppins)
